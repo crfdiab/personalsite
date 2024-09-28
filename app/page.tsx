@@ -4,64 +4,33 @@ import { socialLinks } from "./config";
 export default function Page() {
   return (
     <section>
-      <a href={socialLinks.twitter} target="_blank">
+      
         <Image
-          src="/profile.png"
-          alt="Profile photo"
+          src="/Mohamed-Diab-SEO-Consultant.webp"
+          alt="SEO Consultant Mohamed Diab"
           className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto sm:float-right sm:ml-5 sm:mb-5 grayscale hover:grayscale-0"
           unoptimized
           width={160}
           height={160}
           priority
         />
-      </a>
+      
 
       <h1 className="mb-8 text-2xl font-medium tracking-tight">
-        Portfolio, made simple!
+        Mohamed Diab - <p className="underline decoration-sky-500">SEO Consultant And Specialist</p>
       </h1>
 
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          A clean, fast, and lightweight portfolio template built with Next.js,
-          Vercel, and Tailwind CSS for optimal performance.
+        I Am Mohamed Diab, SEO Consultant And Specialist With More Than 11 Years Of Proven-Work Experience In Search Engine Optimization. More Search Clicks Is my Website Where I Offer SEO Consulting Services And Writing About SEO.
         </p>
         <p>
-          Nextfolio includes all the essentials for a stunning portfolio: SEO,
-          MDX support, RSS, Atom, & JSON feeds, analytics, tweet & YouTube
-          embeds, KaTeX integration, and{" "}
-          <a
-            target="_blank"
-            href="https://github.com/1msirius/Nextfolio?tab=readme-ov-file#features"
-          >
-            more
-          </a>
-          .
+        You Can Check My Previous SEO Projects I Have Worked On Ranging From Personal Projects And Clients Which I Have Provided Them My SEO Services Across Years.  Currently I Work As Full-Time Search Engine Optimization Specialist At ATHEk, Previously Digital Brandria And Osolutions.
         </p>
-        <p>
-          Nextfolio is{" "}
-          <a href={socialLinks.github} target="_blank">
-            open-source
-          </a>{" "}
-          and fully customizable, making it easy to add more features.
-        </p>
-        <p>
-          <a
-            href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F1msirius%2FNextfolio"
-            target="_blank"
-          >
-            Deploy
-          </a>{" "}
-          your Nextfolio site with Vercel in minutes and follow the set up
-          instructions in the{" "}
-          <a href="/blog/getting-started">Getting Started</a> post.
-        </p>
-        <p>
-          Built and maintained by{" "}
-          <a href="https://imsirius.xyz/" target="_blank">
-            Sirius
-          </a>
-          .
-        </p>
+        You Can Start Learning “What Is SEO” Or You Can Request My “SEO Consultation Services” And Thanks For Stopping by My Site.
+        <blockquote>
+        Thanks <a href="https://www.imsirius.xyz/">Sirius</a> For Creating This Beautiful Template Which I Have Forked And Edited My Own Copy Much Love ❤️❤️.
+        </blockquote>
       </div>
     </section>
   );

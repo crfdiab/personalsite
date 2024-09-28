@@ -13,8 +13,8 @@ export function Navbar() {
     <nav className="lg:mb-16 mb-12 py-4">
       <div className="flex flex-col md:flex-row md:items-center justify-between">
         <div className="flex items-center">
-          <Link href="/" className="text-[28px] font-semibold tracking-tight">
-            {metaData.title}
+          <Link href="/" className="text-[20px] font-semibold tracking-tight">
+            More Search Clicks
           </Link>
         </div>
         <div className="flex flex-row gap-4 mt-6 md:mt-0 md:ml-auto items-center">

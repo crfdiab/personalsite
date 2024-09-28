@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap');
+
+
 ::selection {
   background-color: #47a3f3;
   color: #fefefe;
@@ -36,8 +39,8 @@
 
 html {
   min-width: 360px;
+  font-family: var(--font-lexend), system-ui, sans-serif;
 }
-
 .prose {
   @apply text-[#333333] dark:text-[#D4D4D4];
 }

@@ -1,16 +1,16 @@
 export const metaData = {
   baseUrl: "https://personalsite-xi-ashy.vercel.app",
-  title: "Nextfolio",
-  name: "Sirius",
+  title: "Mohamed Diab, SEO Consultant | More Search Clicks",
+  name: "More Search Clicks",
   ogImage: "/opengraph-image.png",
   description:
-    "A clean, fast, and lightweight portfolio template built with Next.js, Vercel, and Tailwind CSS for optimal performance.",
+    "Mohamed Diab Is A SEO Consultant And Specialist, I Have Built More Search Clicks For SEO Consultation Services And Free SEO Resources.",
 };
 
 export const socialLinks = {
-  twitter: "https://x.com/1tssirius",
-  github: "https://github.com/1msirius/Nextfolio",
-  instagram: "https://www.instagram.com/",
-  linkedin: "https://www.linkedin.com/",
-  email: "mailto:example@gmail.com",
+  twitter: "https://x.com/mohamed_diaab1",
+  github: "https://github.com/crfdiab",
+  instagram: "https://www.instagram.com/mohammed.diaaab/",
+  linkedin: "https://www.linkedin.com/in/diaab/",
+  email: "mailto:goonairdiab@gmail.com",
 };

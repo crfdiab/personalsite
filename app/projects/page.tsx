@@ -13,13 +13,7 @@ export default function Projects() {
       <h1 className="mb-8 text-2xl font-medium tracking-tight">Projects</h1>
       <div className="space-y-6">
         {projects.map((project, index) => (
-          <a
-            key={index}
-            href={project.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block group hover:opacity-80 transition-opacity duration-200"
-          >
+          
             <div className="flex flex-col">
               <div className="w-full flex justify-between items-baseline">
                 <span className="text-black dark:text-white font-medium tracking-tight">
@@ -32,8 +26,18 @@ export default function Projects() {
               <p className="prose prose-neutral dark:prose-invert pt-3">
                 {project.description}
               </p>
-            </div>
+              <a
+            key={index}
+            href={project.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline decoration-sky-500/[.55]"
+          >
+              Link On GDrive
           </a>
+              
+            </div>
+          
         ))}
       </div>
     </section>

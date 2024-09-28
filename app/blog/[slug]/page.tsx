@@ -29,7 +29,7 @@ export async function generateMetadata({
   let ogImage = image
     ? image
     : `${metaData.baseUrl}/og?title=${encodeURIComponent(title)}`;
-
+  const canonicalUrl = `${metaData.baseUrl}/blog/${post.slug}`;
   return {
     title,
     description,
@@ -50,6 +50,9 @@ export async function generateMetadata({
       title,
       description,
       images: [ogImage],
+    },
+    alternates: {
+      canonical: canonicalUrl,
     },
   };
 }

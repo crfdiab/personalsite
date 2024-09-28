@@ -43,6 +43,9 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.ico",
   },
+  alternates: {
+    canonical: metaData.baseUrl,
+  },
 };
 
 const cx = (...classes) => classes.filter(Boolean).join(" ");

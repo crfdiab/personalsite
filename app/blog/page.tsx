@@ -1,9 +1,13 @@
 import Link from "next/link";
 import { formatDate, getBlogPosts } from "app/lib/posts";
+import { metaData } from "app/config";
 
 export const metadata = {
   title: "Blog",
   description: "Nextfolio Blog",
+  alternates: {
+    canonical: `${metaData.baseUrl}/blog`,
+  },
 };
 
 export default function BlogPosts() {

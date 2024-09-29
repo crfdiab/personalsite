@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { projects } from "./project-data";
 
 export const metadata: Metadata = {
-  title: "Projects",
+  title: "My SEO Projects",
   description: "My Projects",
 };
 
@@ -35,7 +35,23 @@ export default function Projects() {
           >
               Link On GDrive
           </a>
-              
+          <p className="prose prose-neutral dark:prose-invert pt-3">
+                <strong className="bg-blue-200">Total Search Clicks: {project.clicks}</strong> 
+          </p>
+          <p className="prose prose-neutral dark:prose-invert pt-3">
+                <strong className="bg-purple-400">Total Search Impressions: {project.impressions}</strong> 
+          </p>
+          <p className="prose prose-neutral dark:prose-invert pt-3">
+                <strong className="bg-green-400">Average CTR (Click Through Rate): {project.ctr}</strong> 
+          </p>
+          <p className="prose prose-neutral dark:prose-invert pt-3">
+                <strong className="bg-yellow-300">Average Position: {project.position}</strong> 
+          </p>
+          <p className="prose prose-neutral dark:prose-invert pt-3">
+                <strong>Timespan: {project.time}</strong> 
+          </p>
+          <br></br>
+          <hr></hr>
             </div>
           
         ))}

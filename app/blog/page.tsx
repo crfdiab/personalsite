@@ -3,8 +3,8 @@ import { formatDate, getBlogPosts } from "app/lib/posts";
 import { metaData } from "app/config";
 
 export const metadata = {
-  title: "Blog",
-  description: "Nextfolio Blog",
+  title: "SEO Blog",
+  description: "Learn About Search Engine Optimization From More Search Clicks SEO Blog. Easy To Digest SEO Guides, Latest SEO News, And More About SEO.",
   alternates: {
     canonical: `${metaData.baseUrl}/blog`,
   },
@@ -15,7 +15,7 @@ export default function BlogPosts() {
 
   return (
     <section>
-      <h1 className="mb-8 text-2xl font-medium tracking-tight">Our Blog</h1>
+      <h1 className="mb-8 text-2xl font-medium tracking-tight">More Search Clicks SEO Blog</h1>
       <div>
         {allBlogs
           .sort((a, b) => {

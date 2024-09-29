@@ -22,7 +22,7 @@ export default function Page() {
 
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-        I Am Mohamed Diab, SEO Consultant And Specialist With More Than 11 Years Of Proven-Work Experience In Search Engine Optimization. More Search Clicks Is my Website Where I Offer SEO Consulting Services And Writing About SEO.
+        I Am <a href="https://www.linkedin.com/in/diaab/" target="_blank">Mohamed Diab</a>, SEO Consultant And Specialist With More Than 11 Years Of Proven-Work Experience In Search Engine Optimization. More Search Clicks Is my Website Where I Offer SEO Consulting Services And Writing About SEO.
         </p>
         <p>
         You Can Check My Previous SEO Projects I Have Worked On Ranging From Personal Projects And Clients Which I Have Provided Them My SEO Services Across Years.  Currently I Work As Full-Time Search Engine Optimization Specialist At ATHEk, Previously Digital Brandria And Osolutions.

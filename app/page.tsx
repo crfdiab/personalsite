@@ -29,9 +29,14 @@ export default function Page() {
         </p>
         You Can Start Learning “What Is SEO” Or You Can Request My “SEO Consultation Services” And Thanks For Stopping by My Site.
         <blockquote>
-        Thanks <a href="https://www.imsirius.xyz/">Sirius</a> For Creating This Beautiful Template Which I Have Forked And Edited My Own Copy Much Love ❤️❤️.
+        Thanks <em><a href="https://www.imsirius.xyz/">Sirius</a></em> For Creating This Beautiful Template Which I Have Forked And Edited My Own Copy Much Love ❤️❤️.
         </blockquote>
+        
       </div>
+      <br></br>
+      <p className="text-center">
+        Connect With Me On <a href="https://www.linkedin.com/in/diaab/" target="_blank" className="text-blue-500">LinkedIn</a>
+        </p>
     </section>
   );
 }

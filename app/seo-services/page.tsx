@@ -4,8 +4,8 @@ import { seoServices } from "../seo-services/seo-services-data";
 import { metaData } from "../config";
 
 export const metadata = {
-  title: "SEO Services",
-  description: "Our SEO Services",
+  title: "Professional SEO Services For Businesses",
+  description: "Professional SEO Services For Businesses By More Search Clicks SEO Consultancy. Our SEO Services Are Tailored For Each Business Need From SEO.",
   alternates: {
     canonical: `${metaData.baseUrl}/seo-services`,
   },
@@ -15,6 +15,10 @@ export default function SEOServicesPage() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-medium tracking-tight">SEO Services</h1>
+      <p>
+        Check Out My SEO Services I Provide For Digital Agencies, Individuals And Enterprises. My SEO Services Are Not All-In-One Solutions, Rather It's A Customized Approach To Meet Your Specific Needs.
+      </p>
+      <br></br>
       <div className="space-y-4">
         {seoServices.map((service) => (
           <Link
@@ -26,6 +30,9 @@ export default function SEOServicesPage() {
             <p className="mt-2 text-gray-600 dark:text-gray-400">{service.description}</p>
           </Link>
         ))}
+        <p className="text-center">
+          Connect With Me On <a href="https://www.linkedin.com/in/diaab/" target="_blank" className="text-blue-500">LinkedIn</a>
+        </p>
       </div>
     </section>
   );

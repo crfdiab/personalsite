@@ -5,7 +5,7 @@ import { metaData } from "../config";
 
 export const metadata: Metadata = {
   title: "My Previous SEO Projects",
-  description: "My Projects",
+  description: "Checkout Our Previous SEO Projects And Portfolio We Have Delivered To our Clients With Unattained Success. Satisfying Results In Many Industries And Niches. ",
   alternates: {
     canonical: `${metaData.baseUrl}/projects`,
   },

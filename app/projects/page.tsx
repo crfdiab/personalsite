@@ -1,10 +1,14 @@
 import React from "react";
 import type { Metadata } from "next";
 import { projects } from "./project-data";
+import { metaData } from "../config";
 
 export const metadata: Metadata = {
   title: "My Previous SEO Projects",
   description: "My Projects",
+  alternates: {
+    canonical: `${metaData.baseUrl}/projects`,
+  },
 };
 
 export default function Projects() {

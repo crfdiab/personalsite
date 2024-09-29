@@ -2,6 +2,8 @@ import React from "react";
 import Link from "next/link";
 import { seoServices } from "../seo-services/seo-services-data";
 import { metaData } from "../config";
+import Breadcrumbs from "../components/Breadcrumb";
+
 
 export const metadata = {
   title: "Professional SEO Services For Businesses",
@@ -15,6 +17,8 @@ export default function SEOServicesPage() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-medium tracking-tight">SEO Services</h1>
+      <Breadcrumbs path="/seo-services" lastItemLabel="SEO Services" />
+      <br></br>
       <p>
         Check Out My SEO Services I Provide For Digital Agencies, Individuals And Enterprises. My SEO Services Are Not All-In-One Solutions, Rather It's A Customized Approach To Meet Your Specific Needs.
       </p>

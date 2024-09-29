@@ -15,3 +15,13 @@ export const socialLinks = {
   linkedin: "https://www.linkedin.com/in/diaab/",
   email: "mailto:goonairdiab@gmail.com",
 };
+
+export const pathToTitle = {
+  "/": "Home",
+  "/blog": "Blog",
+  "/projects": "Projects",
+  "/seo-services": "SEO Services",
+  "/seo-services/for-ecommerce": "SEO Services For E-commerce",
+  "/seo-services/local-seo": "Local SEO Services",
+  "/seo-services/technical-seo": "Technical SEO Services",
+};

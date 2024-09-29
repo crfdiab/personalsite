@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { formatDate, getBlogPosts } from "app/lib/posts";
 import { metaData } from "app/config";
-
+import Breadcrumbs from "app/components/Breadcrumb";
 export const metadata = {
   title: "SEO Blog",
   description: "Learn About Search Engine Optimization From More Search Clicks SEO Blog. Easy To Digest SEO Guides, Latest SEO News, And More About SEO.",
@@ -16,6 +16,8 @@ export default function BlogPosts() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-medium tracking-tight">More Search Clicks SEO Blog</h1>
+      <Breadcrumbs path="/blog" lastItemLabel="Blog" />
+      <br></br>
       <div>
         {allBlogs
           .sort((a, b) => {

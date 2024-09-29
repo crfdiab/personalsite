@@ -2,6 +2,7 @@ export const metaData = {
   baseUrl: "https://personalsite-xi-ashy.vercel.app",
   title: "Mohamed Diab, SEO Consultant | More Search Clicks",
   name: "More Search Clicks",
+  siteName: "More Search Clicks",
   ogImage: "/opengraph-image.png",
   description:
     "Mohamed Diab Is A SEO Consultant And Specialist, I Have Built More Search Clicks For SEO Consultation Services And Free SEO Resources.",

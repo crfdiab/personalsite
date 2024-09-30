@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { projects } from "./project-data";
 import { metaData } from "../config";
 import Breadcrumbs from "../components/Breadcrumb";
+import { GoogleTagManager } from "@next/third-parties/google"
 
 export const metadata: Metadata = {
   title: "My Previous SEO Projects",
@@ -14,9 +15,11 @@ export const metadata: Metadata = {
 
 export default function Projects() {
   return (
-    <section>
-      <h1 className="mb-8 text-2xl font-medium tracking-tight">My Previous SEO Projects</h1>
-      <Breadcrumbs path="/projects" lastItemLabel="Projects" />
+    <>
+      <GoogleTagManager gtmId="GTM-MHMNCC54" />
+      <section>
+        <h1 className="mb-8 text-2xl font-medium tracking-tight">My Previous SEO Projects</h1>
+        <Breadcrumbs path="/projects" lastItemLabel="Projects" />
       <br></br>
       <div className="space-y-6">
         {projects.map((project, index) => (
@@ -63,6 +66,7 @@ export default function Projects() {
           
         ))}
       </div>
-    </section>
+      </section>
+    </>
   );
 }

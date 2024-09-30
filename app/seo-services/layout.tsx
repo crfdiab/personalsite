@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import { metaData } from "../config";
+import { GoogleTagManager } from "@next/third-parties/google"
 
 export const metadata: Metadata = {
   title: "Professional SEO Services For Businesses",
@@ -14,5 +15,10 @@ export default function Layout({
 }: {
   children: React.ReactNode
 }) {
-  return <>{children}</>
+  return (
+    <>
+      <GoogleTagManager gtmId="GTM-MHMNCC54" />
+      {children}
+    </>
+  )
 }

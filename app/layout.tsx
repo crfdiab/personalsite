@@ -7,6 +7,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import Footer from "./components/footer";
 import { ThemeProvider } from "./components/theme-switch";
 import { metaData } from "./config";
+import {GoogleTagManager} from "@next/third-parties/google"  
 
 const lexend = Lexend({
   subsets: ['latin'],
@@ -75,6 +76,7 @@ export default function RootLayout({
           href="/atom.xml"
           title="Atom Feed"
         />
+        <GoogleTagManager gtmId="GTM-MHMNCC54" />
         <link
           rel="alternate"
           type="application/feed+json"

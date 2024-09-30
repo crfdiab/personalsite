@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { metaData, socialLinks } from '../config';
 import Breadcrumbs from '../components/Breadcrumb';
 import Script from 'next/script';
+import { GoogleTagManager } from "@next/third-parties/google"
 
 export const metadata = {
   title: "Contact Us",
@@ -15,9 +16,11 @@ export const metadata = {
 
 export default function ContactPage() {
   return (
-    <section>
-      <h1 className="mb-8 text-2xl font-medium tracking-tight">Contact Us</h1>
-      <Breadcrumbs path="/contact" lastItemLabel="Contact" />
+    <>
+      <GoogleTagManager gtmId="GTM-MHMNCC54" />
+      <section>
+        <h1 className="mb-8 text-2xl font-medium tracking-tight">Contact Us</h1>
+        <Breadcrumbs path="/contact" lastItemLabel="Contact" />
       <br />
       <p className="mb-6">
         Contact More Search Click If You Have Any Inquiries, Project To Discuss Or An SEO Audit. Feel Free To Fill-In The Form Below And We Usually Respond Fast.
@@ -53,6 +56,7 @@ export default function ContactPage() {
           });
         `}
       </Script>
-    </section>
+    </section> 
+    </>
   );   
 }

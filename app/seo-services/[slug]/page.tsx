@@ -45,6 +45,7 @@ export default function SEOServicePage({ params }) {
       <Breadcrumbs path={`/seo-services/${service.slug}`} lastItemLabel={service.title} />
       <div className="prose prose-neutral dark:prose-invert">
         <p>{service.description}</p>
+        <img src={service.image} alt={service.imageAlt} />
         <p dangerouslySetInnerHTML={{ __html: service.content }} />
       </div>
       <h2 className="text-xl font-medium tracking-tight">Frequently Asked Questions</h2>

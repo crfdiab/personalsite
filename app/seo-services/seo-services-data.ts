@@ -7,6 +7,8 @@ export interface SEOService {
       question: string;
       answer: string;
     }[];
+    image: string;
+    imageAlt: string;
   }
   
   export const seoServices: SEOService[] = [
@@ -24,7 +26,9 @@ export interface SEOService {
           question: "What are some key SEO strategies for e-commerce websites?",
           answer: "Key SEO strategies for e-commerce websites include optimizing product pages, implementing schema markup, improving site speed, and building a strong internal linking structure."
         }
-      ]
+      ],
+      image: "/seo-services-for-e-commerce.webp",
+      imageAlt: "SEO Services for E-commerce"
     },
     {
       title: "SEO Services for Healthcare",
@@ -40,7 +44,9 @@ export interface SEOService {
           question: "What are some unique SEO challenges for healthcare websites?",
           answer: "Healthcare websites face challenges such as complying with HIPAA regulations, optimizing for local search, and creating authoritative content on complex medical topics."
         }
-      ]
+      ],
+      image: "/seo-services-for-healthcare.webp",
+      imageAlt: "SEO Services for Healthcare"
     },
     {
       title: "SEO Services for Finance",
@@ -56,7 +62,9 @@ export interface SEOService {
           question: "What are some key SEO strategies for finance websites?",
           answer: "Key SEO strategies for finance websites include creating high-quality, informative content, optimizing for local search, implementing secure HTTPS, and building trust through authoritative backlinks."
         }
-      ]
+      ],
+      image: "/seo-services-for-finance.webp",
+      imageAlt: "SEO Services for Finance"
     },
     {
       title: "SEO Services for Technology Startups",
@@ -72,7 +80,9 @@ export interface SEOService {
           question: "What are some unique SEO challenges for tech websites?",
           answer: "Tech websites often face challenges such as explaining complex products or services, keeping up with rapidly changing industry trends, and competing in a highly saturated online space."
         }
-      ]
+      ],
+      image: "/seo-services-for-technology-startups.webp",
+      imageAlt: "SEO Services for Technology Startups"
     },
     {
       title: "SEO Services for Real Estate",
@@ -88,7 +98,9 @@ export interface SEOService {
           question: "What are some key SEO strategies for real estate websites?",
           answer: "Key SEO strategies for real estate websites include optimizing for local search, creating high-quality property listings, implementing schema markup, and building authoritative backlinks."
         }
-      ]
+      ],
+      image: "/seo-services-for-real-estate.webp",
+      imageAlt: "SEO Services for Real Estate"
     },
     {
       title: "SEO Services for Education",
@@ -104,7 +116,9 @@ export interface SEOService {
           question: "What unique SEO challenges do educational websites face?",
           answer: "Educational websites often face challenges such as optimizing for multiple locations, managing large amounts of content, and competing with other institutions for rankings on relevant keywords."
         }
-      ]
+      ],
+      image: "/seo-services-for-education.webp",
+      imageAlt: "SEO Services for Education"
     },
     {
       title: "SEO Services for Restaurants & Food Services",
@@ -120,7 +134,9 @@ export interface SEOService {
           question: "What are some important SEO factors for restaurant websites?",
           answer: "Important SEO factors for restaurant websites include local SEO optimization, mobile-friendliness, fast loading times, and structured data for menus and business information."
         }
-      ]
+      ],
+      image: "/seo-services-for-restaurants-and-food-services.webp",
+      imageAlt: "SEO Services for Restaurants & Food Services"
     },
     {
       title: "SEO Services for Lawyers",
@@ -136,6 +152,8 @@ export interface SEOService {
           question: "What are some key SEO strategies for law firm websites?",
           answer: "Key SEO strategies for law firm websites include optimizing for local search, creating high-quality content on legal topics, building authoritative backlinks, and implementing schema markup for legal services."
         }
-      ]
+      ],
+      image: "/seo-services-for-lawyers.webp",
+      imageAlt: "SEO Services for Lawyers"
     }
   ];  

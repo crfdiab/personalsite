@@ -2,9 +2,10 @@ import Link from "next/link";
 import { ThemeSwitch } from "./theme-switch";
 
 const navItems = {
-  "/blog": { name: "Blog" },
-  "/projects": { name: "Projects" },
   "/seo-services": { name: "SEO Services" },
+  "/contact": { name: "Contact" },
+  "/projects": { name: "Projects" },
+  "/blog": { name: "Blog" },
 };
 
 export function Navbar() {

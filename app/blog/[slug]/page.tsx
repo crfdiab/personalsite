@@ -4,6 +4,7 @@ import { CustomMDX } from "app/components/mdx";
 import { formatDate, getBlogPosts } from "app/lib/posts";
 import { metaData } from "app/config";
 import Breadcrumbs from "app/components/Breadcrumb";
+import { GoogleTagManager } from "@next/third-parties/google"
 
 export async function generateStaticParams() {
   let posts = getBlogPosts();
@@ -80,10 +81,12 @@ export default function Blog({ params }: { params: { slug: string } }) {
   };
 
   return (
-    <section>
-      <script
-        type="application/ld+json"
-        suppressHydrationWarning
+    <>
+      <GoogleTagManager gtmId="GTM-MHMNCC54" />
+      <section>
+        <script
+          type="application/ld+json"
+          suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <h1 className="title mb-3 font-medium text-2xl tracking-tight" aria-label={post.metadata.title} aria-roledescription="Blog Post">
@@ -102,5 +105,6 @@ export default function Blog({ params }: { params: { slug: string } }) {
         <CustomMDX source={post.content} />
       </article>
     </section>
+    </>
   );
 }

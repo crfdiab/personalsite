@@ -2,10 +2,10 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { seoServices } from "../seo-services/seo-services-data";
+import { seoServices } from "./seo-services-data";
 import { metaData } from "../config";
 import Breadcrumbs from "../components/Breadcrumb";
-
+import ContactForm from "../components/ContactForm";
 export default function SEOServicesPage() {
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -54,6 +54,8 @@ export default function SEOServicesPage() {
         )}
       </div>
       <h2 className="text-xl font-medium tracking-tight">What Our SEO Services Includes?</h2>
+      <br></br>
+      <img src="/Our-SEO-Services.webp" alt="SEO Services" className="w-full h-auto" />
       <br></br>
       <p>
       More Search Clicks Doesn’t Approach “All-In-One Managed SEO Services”, Rather We Approach “Business-Oriented SEO Services”. Our Provides Search Engine Optimization Services Are Provided Based On Each Business Need And Goal From SEO. Here Is What’s Is Included In Our SEO Services
@@ -111,10 +113,15 @@ export default function SEOServicesPage() {
             <p className="mt-2 text-gray-600 dark:text-gray-400">{service.description}</p>
           </Link>
         ))}
-        <p className="text-center">
-          Connect With Me On <a href="https://www.linkedin.com/in/diaab/" target="_blank" className="text-blue-500">LinkedIn</a>
-        </p>
       </div>
+      <br></br>
+      <h2 className="text-xl font-medium tracking-tight">Contact Us</h2>
+      <br></br>
+      <p>
+      Contact Us Using The Form Below And We Will Get In Contact With You Shortly. Don't Worry We Won't Spam Your Inbox
+      </p>
+      <br></br>
+      <ContactForm />
     </section>
   );
 }

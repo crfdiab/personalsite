@@ -15,7 +15,7 @@ export default function BlogPosts() {
 
   return (
     <section>
-      <h1 className="mb-8 text-2xl font-medium tracking-tight">More Search Clicks SEO Blog</h1>
+      <h1 className="mb-8 text-2xl font-medium tracking-tight" aria-label="More Search Clicks SEO Blog" aria-roledescription="Blog">More Search Clicks SEO Blog</h1>
       <Breadcrumbs path="/blog" lastItemLabel="Blog" />
       <br></br>
       <div>

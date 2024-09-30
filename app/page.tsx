@@ -16,7 +16,7 @@ export default function Page() {
         />
       
 
-      <h1 className="mb-8 text-2xl font-medium tracking-tight">
+      <h1 className="mb-8 text-2xl font-medium tracking-tight" aria-label="Mohamed Diab - SEO Consultant And Specialist" aria-roledescription="SEO Consultant And Specialist">
         Mohamed Diab - <p className="underline decoration-sky-500">SEO Consultant And Specialist</p>
       </h1>
 
@@ -27,7 +27,7 @@ export default function Page() {
         <p>
         You Can Check My Previous SEO Projects I Have Worked On Ranging From Personal Projects And Clients Which I Have Provided Them My SEO Services Across Years.  Currently I Work As Full-Time Search Engine Optimization Specialist At ATHEk, Previously Digital Brandria And Osolutions.
         </p>
-        You Can Start Learning “What Is SEO” Or You Can Request My “SEO Consultation Services” And Thanks For Stopping by My Site.
+        You Can Start Learning “What Is SEO” Or You Can Request My <a href="/seo-services" aria-label="SEO Services" aria-roledescription="SEO Services">SEO Consultation Services</a> And Thanks For Stopping by My Site.
         <blockquote>
         Thanks <em><a href="https://www.imsirius.xyz/">Sirius</a></em> For Creating This Beautiful Template Which I Have Forked And Edited My Own Copy Much Love ❤️❤️.
         </blockquote>

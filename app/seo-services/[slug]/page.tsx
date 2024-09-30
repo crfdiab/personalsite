@@ -37,12 +37,12 @@ export default function SEOServicePage({ params }) {
 
   return (
     <section>
-      <h1 className="mb-8 text-2xl font-medium tracking-tight">{service.title}</h1>
+      <h1 className="mb-8 text-2xl font-medium tracking-tight" aria-label={service.title} aria-roledescription="SEO Service">{service.title}</h1>
       <br />
       <Breadcrumbs path={`/seo-services/${service.slug}`} lastItemLabel={service.title} />
       <div className="prose prose-neutral dark:prose-invert">
         <p>{service.description}</p>
-        {/* Add more detailed content about the specific SEO service here */}
+        <p dangerouslySetInnerHTML={{ __html: service.content }} />
       </div>
       <h2 className="text-xl font-medium tracking-tight">Frequently Asked Questions</h2>
       <br />

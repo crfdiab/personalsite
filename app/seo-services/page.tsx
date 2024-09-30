@@ -3,9 +3,9 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { seoServices } from "./seo-services-data";
-import { metaData } from "../config";
 import Breadcrumbs from "../components/Breadcrumb";
 import ContactForm from "../components/ContactForm";
+
 export default function SEOServicesPage() {
   const [isExpanded, setIsExpanded] = useState(false);
 

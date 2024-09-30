@@ -1,5 +1,5 @@
 export const metaData = {
-  baseUrl: "https://personalsite-xi-ashy.vercel.app",
+  baseUrl: "https://moresearch.click",
   title: "Mohamed Diab, SEO Consultant | More Search Clicks",
   name: "More Search Clicks",
   siteName: "More Search Clicks",
@@ -19,7 +19,7 @@ export const socialLinks = {
 export const pathToTitle = {
   "/": "Home",
   "/blog": "Blog",
-  "/contact": "Contact",
+  
   "/projects": "Projects",
   "/seo-services": "SEO Services",
   "/seo-services/for-ecommerce": "SEO Services For E-commerce",

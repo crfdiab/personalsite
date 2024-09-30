@@ -1,5 +1,5 @@
 import { MetadataRoute } from "next";
-// import { getBlogPosts } from "./lib/posts";  // Remove this line
+import { getBlogPosts } from "./lib/posts";  // Uncomment this line
 import { metaData } from "./config";
 import { seoServices } from "./seo-services/seo-services-data";
 
@@ -18,5 +18,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     lastModified: new Date().toISOString().split("T")[0],
   }));
   
-  return [...routes, ...seoServiceRoutes];
+  // Add blog post routes
+  const blogPosts = await getBlogPosts();
+  let blogPostRoutes = blogPosts.map((post) => ({
+    url: `${BaseUrl}blog/${post.slug}`,
+    lastModified: post.metadata.date, 
+  }));
+  
+  return [...routes, ...seoServiceRoutes, ...blogPostRoutes];
 }

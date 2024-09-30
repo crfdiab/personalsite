@@ -35,7 +35,7 @@ export default function Page() {
       </div>
       <br></br>
       <p className="text-center">
-        Connect With Me On <a href="https://www.linkedin.com/in/diaab/" target="_blank" className="text-blue-500">LinkedIn</a>
+        Connect With Me On <a href="https://www.linkedin.com/in/diaab/" target="_blank" className="text-blue-500">LinkedIn</a> Or <a href="mailto:goonairdiab@gmail.com" className="text-blue-500">Email Me</a>
         </p>
     </section>
   );

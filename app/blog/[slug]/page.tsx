@@ -89,10 +89,13 @@ export default function Blog({ params }: { params: { slug: string } }) {
       <h1 className="title mb-3 font-medium text-2xl tracking-tight" aria-label={post.metadata.title} aria-roledescription="Blog Post">
         {post.metadata.title}
       </h1>
+      <br />
       <div className="flex justify-between items-center mt-2 mb-8 text-medium">
         <p className="text-sm text-neutral-600 dark:text-neutral-400">
           {formatDate(post.metadata.publishedAt)}
         </p>
+      </div>
+      <div className="flex justify-between items-center mt-2 mb-8 text-medium">
         <Breadcrumbs path={`/blog/${post.slug}`} lastItemLabel={post.metadata.title}/>
       </div>
       <article className="prose prose-quoteless prose-neutral dark:prose-invert">

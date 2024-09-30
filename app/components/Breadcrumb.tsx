@@ -33,8 +33,8 @@ const Breadcrumbs: React.FC<BreadcrumbsProps> = ({ path, lastItemLabel }) => {
   }, [path, lastItemLabel]);
 
   return (
-    <nav aria-label="Breadcrumb">
-      <ol className="flex items-center space-x-2">
+    <nav aria-label="Breadcrumb" className="text-sm" >
+      <ol className="flex items-center space-x-2 text-sm">
         <li>
           <Link href="/" className="text-blue-600 hover:text-gray-700 text-sm">
             Home
@@ -42,7 +42,7 @@ const Breadcrumbs: React.FC<BreadcrumbsProps> = ({ path, lastItemLabel }) => {
         </li>
         {breadcrumbItems.map(({ key, href, label, isLast }) => (
           <li key={key}>
-            <span className="text-gray-500 mx-2">/</span>
+            <span className="text-gray-500 mx-2 text-sm">/</span>
             {isLast ? (
               <span 
                 className="text-gray-900 text-sm"
@@ -51,7 +51,7 @@ const Breadcrumbs: React.FC<BreadcrumbsProps> = ({ path, lastItemLabel }) => {
                 {label}
               </span>
             ) : (
-              <Link href={href} className="text-blue-600 hover:text-gray-70 text-base">
+              <Link href={href} className="text-blue-600 hover:text-gray-70 text-sm">
                 {label}
               </Link>
             )}

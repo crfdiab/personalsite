@@ -2,7 +2,7 @@ import Link from "next/link";
 import { ThemeSwitch } from "./theme-switch";
 
 const navItems = {
-  "/seo-services": { name: "SEO Services" },
+  "/seo-services": { name: "Services" },
   "/contact": { name: "Contact" },
   "/projects": { name: "Projects" },
   "/blog": { name: "Blog" },

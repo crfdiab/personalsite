@@ -15,7 +15,7 @@ export async function generateMetadata({
   }
 
   return {
-    title: `${service.title}`,
+    title: `${service.title} | ${metaData.siteName}`,
     description: service.description,
     alternates: {
       canonical: `${metaData.baseUrl}/seo-services/${service.slug}`,

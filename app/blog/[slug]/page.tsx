@@ -86,7 +86,7 @@ export default function Blog({ params }: { params: { slug: string } }) {
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <h1 className="title mb-3 font-medium text-2xl tracking-tight">
+      <h1 className="title mb-3 font-medium text-2xl tracking-tight" aria-label={post.metadata.title} aria-roledescription="Blog Post">
         {post.metadata.title}
       </h1>
       <div className="flex justify-between items-center mt-2 mb-8 text-medium">

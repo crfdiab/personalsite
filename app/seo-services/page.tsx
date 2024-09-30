@@ -16,7 +16,7 @@ export const metadata = {
 export default function SEOServicesPage() {
   return (
     <section>
-      <h1 className="mb-8 text-2xl font-medium tracking-tight">SEO Services</h1>
+      <h1 className="mb-8 text-2xl font-medium tracking-tight" aria-label="SEO Services" aria-roledescription="SEO Services">SEO Services</h1>
       <Breadcrumbs path="/seo-services" lastItemLabel="SEO Services" />
       <br></br>
       <p>

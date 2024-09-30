@@ -13,9 +13,9 @@ import { metaData, socialLinks } from "app/config";
 
 const YEAR = new Date().getFullYear();
 
-function SocialLink({ href, icon: Icon }) {
+function SocialLink({ href, icon: Icon, ariaLabel }) {
   return (
-    <a href={href} target="_blank" rel="noopener noreferrer">
+    <a href={href} target="_blank" rel="noopener noreferrer" aria-label={ariaLabel}>
       <Icon />
     </a>
   );
@@ -24,12 +24,12 @@ function SocialLink({ href, icon: Icon }) {
 function SocialLinks() {
   return (
     <div className="flex text-lg gap-3.5 float-right transition-opacity duration-300 hover:opacity-90">
-      <SocialLink href={socialLinks.twitter} icon={FaXTwitter} />
-      <SocialLink href={socialLinks.github} icon={FaGithub} />
-      <SocialLink href={socialLinks.instagram} icon={FaInstagram} />
-      <SocialLink href={socialLinks.linkedin} icon={FaLinkedinIn} />
-      <SocialLink href={socialLinks.email} icon={TbMailFilled} />
-      <a href="/rss.xml" target="_self">
+      <SocialLink href={socialLinks.twitter} icon={FaXTwitter} ariaLabel="Twitter" />
+      <SocialLink href={socialLinks.github} icon={FaGithub} ariaLabel="GitHub" />
+      <SocialLink href={socialLinks.instagram} icon={FaInstagram} ariaLabel="Instagram" />
+      <SocialLink href={socialLinks.linkedin} icon={FaLinkedinIn} ariaLabel="LinkedIn" />
+      <SocialLink href={socialLinks.email} icon={TbMailFilled} ariaLabel="Email" />
+      <a href="/rss.xml" target="_self" aria-label="RSS Feed">
         <FaRss />
       </a>
     </div>

@@ -109,7 +109,7 @@ export default function SEOServicesPage() {
             href={`/seo-services/${service.slug}`}
             className="block p-4 border rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800"
           >
-            <h2 className="text-lg font-medium">{service.title}</h2>
+            <h3 className="text-lg font-medium" aria-label={service.title} aria-roledescription={service.title}>{service.title}</h3>
             <p className="mt-2 text-gray-600 dark:text-gray-400">{service.description}</p>
           </Link>
         ))}

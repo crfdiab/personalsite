@@ -3,7 +3,7 @@ export const metaData = {
   title: "Mohamed Diab, SEO Consultant | More Search Clicks",
   name: "More Search Clicks",
   siteName: "More Search Clicks",
-  ogImage: "/opengraph-image.png",
+  ogImage: "/og-image.webp",
   description:
     "Mohamed Diab Is A SEO Consultant And Specialist, I Have Built More Search Clicks For SEO Consultation Services And Free SEO Resources.",
 };

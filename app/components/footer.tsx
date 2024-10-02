@@ -2,10 +2,6 @@
 
 import React from "react";
 import {
-  FaXTwitter,
-  FaGithub,
-  FaInstagram,
-  FaRss,
   FaLinkedinIn,
 } from "react-icons/fa6";
 import { TbMailFilled } from "react-icons/tb";
@@ -25,7 +21,7 @@ function SocialLinks() {
   return (
     <div className="flex text-lg gap-3.5 float-right transition-opacity duration-300 hover:opacity-90">
       <SocialLink href={socialLinks.linkedin} icon={FaLinkedinIn} ariaLabel="LinkedIn" />
-      <SocialLink href={socialLinks.email} icon={TbMailFilled} ariaLabel="Email" />
+      <SocialLink href="mailto:goonairdiab@gmail.com" icon={TbMailFilled} ariaLabel="Email" />
     </div>
   );
 }

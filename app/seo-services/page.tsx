@@ -50,10 +50,12 @@ export default function SEOServicesPage() {
             <li><a href="#building-relevant-links" className="text-blue-600 hover:text-blue-800">Building Relevant Links</a></li>
             <li><a href="#building-citations" className="text-blue-600 hover:text-blue-800">Building Citations</a></li>
             <li><a href="#ranking-and-reporting" className="text-blue-600 hover:text-blue-800">Ranking and Reporting</a></li>
+            <li><a href="#what-industries-our-seo-services-cover" className="text-blue-600 hover:text-blue-800">What Industries Our SEO Services Cover?</a></li>
+            <li><a href="#request-quote" className="text-blue-600 hover:text-blue-800">Request Quote</a></li>
           </ul>
         )}
       </div>
-      <h2 className="text-xl font-medium tracking-tight">What Our SEO Services Includes?</h2>
+      <h2 className="text-xl font-medium tracking-tight" aria-label="What Our SEO Services Includes?" aria-roledescription="What Our SEO Services Includes?" id="what-our-seo-services-includes">What Our SEO Services Includes?</h2>
       <br></br>
       <img src="/Our-SEO-Services.webp" alt="SEO Services" className="w-full h-auto" />
       <br></br>
@@ -61,42 +63,42 @@ export default function SEOServicesPage() {
       More Search Clicks Doesn’t Approach “All-In-One Managed SEO Services”, Rather We Approach “Business-Oriented SEO Services”. Our Provides Search Engine Optimization Services Are Provided Based On Each Business Need And Goal From SEO. Here Is What’s Is Included In Our SEO Services
       </p>
       <br></br>
-      <h3 className="text-xl font-medium tracking-tight">Complete Audit</h3>
+      <h3 className="text-xl font-medium tracking-tight" aria-label="Complete Audit" aria-roledescription="Complete Audit" id="complete-audit">Complete Audit</h3>
       <p>
       Our SEO Services Begins With Complete Technical And Content Audit For Your Website To Spot Issues That Impacts Your Overall Website Performance In Search Engines.
       </p>
       <br></br>
-      <h3 className="text-xl font-medium tracking-tight" aria-label="Keyword Research And Analysis" aria-roledescription="Keyword Research And Analysis">Keyword Research And Analysis</h3>
+      <h3 className="text-xl font-medium tracking-tight" aria-label="Keyword Research And Analysis" aria-roledescription="Keyword Research And Analysis" id="keyword-research-and-analysis">Keyword Research And Analysis</h3>
       <p>
       We Do Deep Keyword Research And Analysis Through Thorough Competition Analysis For Your Competition Space And Spotting Your Top And Strongest Organic Competitors.
       </p>
       <br></br>
-      <h3 className="text-xl font-medium tracking-tight" aria-label="Creating SEO Strategy" aria-roledescription="Creating SEO Strategy">Creating SEO Strategy</h3>
+      <h3 className="text-xl font-medium tracking-tight" aria-label="Creating SEO Strategy" aria-roledescription="Creating SEO Strategy" id="creating-seo-strategy">Creating SEO Strategy</h3>
       <p>
       We Create An Optimized And Tailored SEO Strategy Based On Our Research And Analysis Findings, And Then We Execute On Your SEO Strategy On A Specific Timespan To Be Ready To Dominate Your Competitors In Search Engines.
       </p>
       <br></br>
-      <h3 className="text-xl font-medium tracking-tight" aria-label="Creating Optimized Content" aria-roledescription="Creating Optimized Content">Creating Optimized Content</h3>
+      <h3 className="text-xl font-medium tracking-tight" aria-label="Creating Optimized Content" aria-roledescription="Creating Optimized Content" id="creating-optimized-content">Creating Optimized Content</h3>
       <p>
       We Create Highly-Optimized Content For Users And Search Engines, Content That Convert Leads To Your Business, Rank Well In Search Engines And Build Your Brand As An Authority Within Your Niche.
       </p>
       <br></br>
-      <h3 className="text-xl font-medium tracking-tight" aria-label="Building Relevant Links" aria-roledescription="Building Relevant Links">Building Relevant Links</h3>
+      <h3 className="text-xl font-medium tracking-tight" aria-label="Building Relevant Links" aria-roledescription="Building Relevant Links" id="building-relevant-links">Building Relevant Links</h3>
       <p>
       We Build Strong And Relevant Backlinks From Relevant Websites In Your Space And Websites Trusted By Google To Help Google Trust Your Website And Rank It Better In Search Results.
       </p>
       <br></br>
-      <h3 className="text-xl font-medium tracking-tight" aria-label="Building Citations" aria-roledescription="Building Citations">Building Citations</h3>
+      <h3 className="text-xl font-medium tracking-tight" aria-label="Building Citations" aria-roledescription="Building Citations" id="building-citations">Building Citations</h3>
       <p>
       We Build Citations For Your Business Through Local Directories And Social Media Platforms To Ensure The Consistency Of Your Business Details Matching Each Other On Different Platforms, As This Helps In Local SEO.
       </p>
       <br></br>
-      <h3 className="text-xl font-medium tracking-tight" aria-label="Ranking And Reporting" aria-roledescription="Ranking And Reporting">Ranking And Reporting</h3>
+      <h3 className="text-xl font-medium tracking-tight" aria-label="Ranking And Reporting" aria-roledescription="Ranking And Reporting" id="ranking-and-reporting">Ranking And Reporting</h3>
       <p>
       At More Search Clicks On Monthly Basis Or Bi-Weekly Basis We Send Out Reports To Our Valued Clients With What Have Been Done Through The Website From Content Changes To Reporting Rankings in Beautiful Reports To Them.
       </p>
       <br></br>
-      <h2 className="text-xl font-medium tracking-tight">What Industries Our SEO Services Cover?</h2>
+      <h2 className="text-xl font-medium tracking-tight" aria-label="What Industries Our SEO Services Cover?" aria-roledescription="What Industries Our SEO Services Cover?" id="what-industries-our-seo-services-cover">What Industries Our SEO Services Cover?</h2>
       <br></br>
       <p>
       Throughout Years We Have Been Providing Our SEO Services For Businesses in Different Industries, Checkout Our List Of Industries We Provide SEO Services For.
@@ -115,7 +117,7 @@ export default function SEOServicesPage() {
         ))}
       </div>
       <br></br>
-      <h2 className="text-xl font-medium tracking-tight">Contact Us</h2>
+      <h2 className="text-xl font-medium tracking-tight" aria-label="Request Quote" aria-roledescription="Request Quote" id="request-quote">Request Quote</h2>
       <br></br>
       <p>
       Contact Us Using The Form Below And We Will Get In Contact With You Shortly. Don't Worry We Won't Spam Your Inbox

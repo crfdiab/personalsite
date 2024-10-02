@@ -13,7 +13,7 @@ export const socialLinks = {
   github: "https://github.com/crfdiab",
   instagram: "https://www.instagram.com/mohammed.diaaab/",
   linkedin: "https://www.linkedin.com/in/diaab/",
-  email: "mailto:goonairdiab@gmail.com",
+  email: "goonairdiab@gmail.com",
 };
 
 export const pathToTitle = {

@@ -34,6 +34,15 @@ const nextConfig = {
       },
     ];
   },
+  async redirects() {
+    return [
+      {
+        source: '/seo-services/finance-seo',
+        destination: '/seo-services/fintech-seo',
+        permanent: true,
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;

@@ -23,6 +23,16 @@ export async function generateMetadata({
     alternates: {
       canonical: `${metaData.baseUrl}/seo-services/${service.slug}`,
     },
+    openGraph: {
+      title: service.ogTitle,
+      description: service.ogDescription,
+      images: [
+        {
+          url: service.ogImage,
+          alt: service.ogImageAlt,
+        },
+      ],
+    },
   };
 }
 

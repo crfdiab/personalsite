@@ -8,6 +8,6 @@ export default function robots() {
         allow: "/",
       },
     ],
-    sitemap: `${metaData.baseUrl}/sitemap.xml`,
+    sitemap: `https://storage.moresearch.click/static/sitemap.xml`,
   };
 }
